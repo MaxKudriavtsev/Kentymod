@@ -19,6 +19,7 @@ public class KentyMod
     private static final Logger LOGGER = LogManager.getLogger();
 
     public KentyMod() {
+        System.out.println("Hello World!");
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
