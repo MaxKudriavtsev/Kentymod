@@ -1,6 +1,8 @@
 package com.fesho_deepwater.kentymod;
 
+import com.fesho_deepwater.kentymod.core.init.ItemInit;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -13,24 +15,17 @@ import org.apache.logging.log4j.Logger;
 @Mod("kentymod")
 public class KentyMod
 {
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "kentymod";
 
     public KentyMod() {
-        System.out.println("Hello World!");
-        System.out.println("poshel naxuy");
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+        ItemInit.ITEMS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
 
-    }
-
-    private void doClientStuff(final FMLClientSetupEvent event) {
-    }
 
 }
