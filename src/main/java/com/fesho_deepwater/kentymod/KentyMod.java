@@ -22,7 +22,7 @@ public class KentyMod
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(bus);
-
+        System.out.println("asfasf");
         MinecraftForge.EVENT_BUS.register(this);
     }
 
