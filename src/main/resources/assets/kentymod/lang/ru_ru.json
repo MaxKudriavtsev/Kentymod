@@ -1,6 +1,11 @@
 {
   "item.kentymod.silver_ingot": "Слиток Серебра",
 
+  "item.kentymod.silver_helmet": " Серебряный Шлем",
+  "item.kentymod.silver_chestplate": "Серебряный Нагрудник",
+  "item.kentymod.silver_leggings": "Серебряные Поножи",
+  "item.kentymod.silver_boots": "Серебряные Ботинки",
+
   "itemGroup.kentymod" : "Предметы Кентов"
 
 }

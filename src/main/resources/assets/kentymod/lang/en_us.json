@@ -1,5 +1,10 @@
 {
   "item.kentymod.silver_ingot": "Silver Ingot",
 
+  "item.kentymod.silver_helmet": "Silver Helmet",
+  "item.kentymod.silver_chestplate": "Silver Chestplate",
+  "item.kentymod.silver_leggings": "Silver Leggings",
+  "item.kentymod.silver_boots": "Silver Boots",
+
   "itemGroup.kentymod" : "Kenty Mod Items"
 }
