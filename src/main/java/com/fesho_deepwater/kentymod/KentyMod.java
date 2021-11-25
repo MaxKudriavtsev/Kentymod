@@ -20,7 +20,7 @@ public class KentyMod
 
     public KentyMod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+        System.out.println("AOAOAOAOAOOOAOAOA");
         ItemInit.ITEMS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
