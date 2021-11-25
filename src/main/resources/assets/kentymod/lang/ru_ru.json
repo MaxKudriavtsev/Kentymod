@@ -1,3 +1,5 @@
 {
-  "item.kentymod.silver": "Серебро"
+  "item.kentymod.silver": "Серебро",
+
+  "itemGroup.kentymod" : "Предметы Кентов"
 }
