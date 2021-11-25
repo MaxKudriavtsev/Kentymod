@@ -14,6 +14,6 @@ public class KentyModItemGroup extends ItemGroup {
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(ItemInit.Silver.get());
+        return new ItemStack(ItemInit.silver_ingot.get());
     }
 }

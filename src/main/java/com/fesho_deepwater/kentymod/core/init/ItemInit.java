@@ -11,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, KentyMod.MOD_ID);
-    public static final RegistryObject<Item> Silver = ITEMS.register("silver",
+    public static final RegistryObject<Item> silver_ingot = ITEMS.register("silver_ingot",
             () -> new Item(new Item.Properties().group(KentyModItemGroup.kentymod)));
 
 

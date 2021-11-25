@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures":
   {
-    "layer0": "kentymod:items/silver"
+    "layer0": "kentymod:items/silver_ingot"
   }
 }
