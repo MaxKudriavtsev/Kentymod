@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "SSS",
+      "S S"
+  ],
+  "key": {
+    "S": {
+        "item": "kentymod:silver_ingot"
+    }
+  },
+  "result": {
+      "item": "kentymod:silver_helmet",
+      "count": 1
+  }
+}
