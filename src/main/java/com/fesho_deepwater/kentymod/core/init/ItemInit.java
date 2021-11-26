@@ -2,12 +2,11 @@ package com.fesho_deepwater.kentymod.core.init;
 
 import com.fesho_deepwater.kentymod.KentyMod;
 import com.fesho_deepwater.kentymod.common.material.SilverArmorMaterial;
+import com.fesho_deepwater.kentymod.common.material.SilverToolMaterial;
 import com.fesho_deepwater.kentymod.core.itemgroup.KentyModItemGroup;
 import net.minecraft.client.tutorial.Tutorial;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -31,5 +30,25 @@ public class ItemInit {
 
     public static final RegistryObject<Item> silver_boots = ITEMS.register("silver_boots",
             () -> new ArmorItem(SilverArmorMaterial.Silver_Armor, EquipmentSlotType.FEET,
+                    new Item.Properties().group(KentyModItemGroup.kentymod)));
+
+    public static final RegistryObject<Item> silver_sword = ITEMS.register("silver_sword",
+            () -> new SwordItem(SilverToolMaterial.Silver_Tool, 5, -1,
+                    new Item.Properties().group(KentyModItemGroup.kentymod)));
+
+    public static final RegistryObject<Item> silver_pickaxe = ITEMS.register("silver_pickaxe",
+            () -> new PickaxeItem(SilverToolMaterial.Silver_Tool, 5, -1,
+                    new Item.Properties().group(KentyModItemGroup.kentymod)));
+
+    public static final RegistryObject<Item> silver_axe = ITEMS.register("silver_axe",
+            () -> new AxeItem(SilverToolMaterial.Silver_Tool, 5, -1,
+                    new Item.Properties().group(KentyModItemGroup.kentymod)));
+
+    public static final RegistryObject<Item> silver_hoe = ITEMS.register("silver_hoe",
+            () -> new HoeItem(SilverToolMaterial.Silver_Tool, 5, -1,
+                    new Item.Properties().group(KentyModItemGroup.kentymod)));
+
+    public static final RegistryObject<Item> silver_shovel = ITEMS.register("silver_shovel",
+            () -> new ShovelItem(SilverToolMaterial.Silver_Tool, 5, -1,
                     new Item.Properties().group(KentyModItemGroup.kentymod)));
 }

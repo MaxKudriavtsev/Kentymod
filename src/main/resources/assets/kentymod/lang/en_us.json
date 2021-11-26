@@ -5,6 +5,11 @@
   "item.kentymod.silver_chestplate": "Silver Chestplate",
   "item.kentymod.silver_leggings": "Silver Leggings",
   "item.kentymod.silver_boots": "Silver Boots",
+  "item.kentymod.silver_sword": "Silver Sword",
+  "item.kentymod.silver_axe": "Silver Axe",
+  "item.kentymod.silver_pickaxe": "Silver Pickaxe",
+  "item.kentymod.silver_shovel": "Silver Shovel",
+  "item.kentymod.silver_hoe": "Silver Hoe",
 
   "itemGroup.kentymod" : "Kenty Mod Items"
 }

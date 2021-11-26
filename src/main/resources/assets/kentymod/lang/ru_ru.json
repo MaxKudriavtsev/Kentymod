@@ -5,6 +5,11 @@
   "item.kentymod.silver_chestplate": "Серебряный Нагрудник",
   "item.kentymod.silver_leggings": "Серебряные Поножи",
   "item.kentymod.silver_boots": "Серебряные Ботинки",
+  "item.kentymod.silver_sword": "Серебряный Меч Убийца",
+  "item.kentymod.silver_axe": "Серебряный Топор",
+  "item.kentymod.silver_pickaxe": "Серебряная Кирка",
+  "item.kentymod.silver_shovel": "Серебряная Лопата",
+  "item.kentymod.silver_hoe": "Серебряная Мотыга",
 
   "itemGroup.kentymod" : "Предметы Кентов"
 
