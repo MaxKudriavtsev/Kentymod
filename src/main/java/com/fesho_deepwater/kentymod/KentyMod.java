@@ -33,6 +33,7 @@ public class KentyMod {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         BlockInit.BLOCKS.getEntries().stream().map(RegistryObject::get).forEach(block -> {

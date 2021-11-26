@@ -33,22 +33,22 @@ public class ItemInit {
                     new Item.Properties().group(KentyModItemGroup.kentymod)));
 
     public static final RegistryObject<Item> silver_sword = ITEMS.register("silver_sword",
-            () -> new SwordItem(SilverToolMaterial.Silver_Tool, 5, -1,
+            () -> new SwordItem(SilverToolMaterial.Silver_Sword, 5, -1,
                     new Item.Properties().group(KentyModItemGroup.kentymod)));
 
     public static final RegistryObject<Item> silver_pickaxe = ITEMS.register("silver_pickaxe",
-            () -> new PickaxeItem(SilverToolMaterial.Silver_Tool, 5, -1,
+            () -> new PickaxeItem(SilverToolMaterial.Silver_Pickaxe, 5, -1,
                     new Item.Properties().group(KentyModItemGroup.kentymod)));
 
     public static final RegistryObject<Item> silver_axe = ITEMS.register("silver_axe",
-            () -> new AxeItem(SilverToolMaterial.Silver_Tool, 5, -1,
+            () -> new AxeItem(SilverToolMaterial.Silver_Axe, 5, -1,
                     new Item.Properties().group(KentyModItemGroup.kentymod)));
 
     public static final RegistryObject<Item> silver_hoe = ITEMS.register("silver_hoe",
-            () -> new HoeItem(SilverToolMaterial.Silver_Tool, 5, -1,
+            () -> new HoeItem(SilverToolMaterial.Silver_Hoe, 5, -1,
                     new Item.Properties().group(KentyModItemGroup.kentymod)));
 
     public static final RegistryObject<Item> silver_shovel = ITEMS.register("silver_shovel",
-            () -> new ShovelItem(SilverToolMaterial.Silver_Tool, 5, -1,
+            () -> new ShovelItem(SilverToolMaterial.Silver_Shovel, 5, -1,
                     new Item.Properties().group(KentyModItemGroup.kentymod)));
 }

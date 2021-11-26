@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients": [{
+    "item": "kentymod:block_of_silver"
+  }
+  ],
+  "result": {
+    "item": "kentymod:silver_ingot",
+    "count": 9
+  }
+}

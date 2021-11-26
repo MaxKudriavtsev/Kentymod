@@ -8,7 +8,38 @@ import java.util.function.Supplier;
 
 public enum SilverToolMaterial implements IItemTier {
 
-    Silver_Tool(4, 2000, 10f, 2f, 17, () -> Ingredient.fromItems(ItemInit.silver_ingot.get()));
+    Silver_Axe(4,
+            2000,
+            10f,
+            2f,
+            17,
+            () -> Ingredient.fromItems(ItemInit.silver_ingot.get())),
+    Silver_Shovel(4,
+            2000,
+            10f,
+            2f,
+            17,
+            () -> Ingredient.fromItems(ItemInit.silver_ingot.get())),
+    Silver_Hoe(4,
+            2000,
+            10f,
+            2f,
+            17,
+            () -> Ingredient.fromItems(ItemInit.silver_ingot.get())),
+    Silver_Sword(4,
+            40,
+            10f,
+            2f,
+            17,
+            () -> Ingredient.fromItems(ItemInit.silver_ingot.get())),
+    Silver_Pickaxe(4,
+            300,
+            10f,
+            2f,
+            17,
+            () -> Ingredient.fromItems(ItemInit.silver_ingot.get()));
+
+
 
     private final int harvestLevel;
     private final int maxUses;
@@ -18,13 +49,13 @@ public enum SilverToolMaterial implements IItemTier {
     private final Ingredient repairMaterial;
 
     SilverToolMaterial(int harvestLevel, int maxUses, float efficiency, float attackDamage,
-                       int enchantability, Supplier<Ingredient> repairMaterial){
-        this.harvestLevel=harvestLevel;
-        this.maxUses=maxUses;
-        this.efficiency=efficiency;
-        this.attackDamage=attackDamage;
-        this.enchantability=enchantability;
-        this.repairMaterial=repairMaterial.get();
+                       int enchantability, Supplier<Ingredient> repairMaterial) {
+        this.harvestLevel = harvestLevel;
+        this.maxUses = maxUses;
+        this.efficiency = efficiency;
+        this.attackDamage = attackDamage;
+        this.enchantability = enchantability;
+        this.repairMaterial = repairMaterial.get();
     }
 
     @Override
