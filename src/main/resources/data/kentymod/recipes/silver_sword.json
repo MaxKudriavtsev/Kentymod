@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " P "
+  ],
+  "key": {
+    "S": {
+      "item": "kentymod:silver_ingot"
+    },
+    "P": {
+      "item": "minecraft:stick"
+    }
+
+  },
+  "result": {
+    "item": "kentymod:silver_sword",
+    "count": 1
+  }
+}
